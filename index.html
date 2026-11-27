@@ -1,11 +1,166 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marcelo Alberti | Portfólio</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&display=swap">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+  <header>
+    <div class="wrap">
+      <span class="pill"><span class="dot"></span>Status</span>
+      <nav class="top" aria-label="Principal">
+        <a href="#materias">Matérias</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a class="pill dark" href="#contato">Contato</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <h1><span class="o">Marcelo</span> Alberti</h1>
+        <div class="photo" role="img" aria-label="Foto de Marcelo Alberti"></div>
+
+        <div class="intro" id="sobre">
+          <h2>Cargo ou curso</h2>
+          <p>Texto de apresentação.</p>
+          <a class="pill dark" href="#materias">Ver projetos</a>
+        </div>
+
+        <div class="socials" id="contato">
+          <a class="pill" href="#">Rede 1</a>
+          <a class="pill" href="#">Rede 2</a>
+          <a class="pill" href="#">Rede 3</a>
+          <a class="pill" href="#">E-mail</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="tabs-sec" id="materias">
+      <div class="wrap">
+        <h3>Matérias</h3>
+
+        <nav class="tabs" aria-label="Matérias">
+          <a class="pill tab" href="#ingles-ii">Inglês II</a>
+          <a class="pill tab" href="#redes-e-internet">Redes e Internet</a>
+          <a class="pill tab" href="#bases-de-internet">Bases de Internet</a>
+          <a class="pill tab" href="#padroes-de-projetos">Padrões de Projetos de Sítios Internet</a>
+          <a class="pill tab" href="#praticas-de-design">Práticas de Design</a>
+          <a class="pill tab" href="#matematica-discreta">Matemática Discreta</a>
+        </nav>
+
+        <div class="panel" id="ingles-ii">
+          <h4>Inglês II</h4>
+          <div class="grid">
+            <article class="card">
+              <div class="thumb"></div>
+              <h5>Projeto</h5>
+              <p>Descrição.</p>
+              <a href="#">Ver projeto</a>
+            </article>
+          </div>
+        </div>
+
+        <div class="panel" id="redes-e-internet">
+          <h4>Redes e Internet</h4>
+          <div class="grid">
+            <article class="card">
+              <div class="thumb"></div>
+              <h5>Projeto</h5>
+              <p>Descrição.</p>
+              <a href="#">Ver projeto</a>
+            </article>
+          </div>
+        </div>
+
+        <div class="panel" id="bases-de-internet">
+          <h4>Bases de Internet</h4>
+          <div class="grid">
+            <article class="card">
+              <div class="thumb"></div>
+              <h5>Projeto</h5>
+              <p>Descrição.</p>
+              <a href="#">Ver projeto</a>
+            </article>
+          </div>
+        </div>
+
+        <div class="panel" id="padroes-de-projetos">
+          <h4>Padrões de Projetos de Sítios Internet</h4>
+          <div class="grid">
+            <article class="card">
+              <img class="thumb" src="placeholder.svg" alt="Prévia do projeto Aula Coca">
+              <h5>Aula Coca</h5>
+              <a href="https://zelo919.github.io/aula_coca/index.html" target="_blank" rel="noopener">Ver projeto</a>
+            </article>
+            <article class="card">
+              <img class="thumb" src="placeholder.svg" alt="Prévia do projeto Layouts">
+              <h5>Layouts</h5>
+              <a href="https://zelo919.github.io/layouts/" target="_blank" rel="noopener">Ver projeto</a>
+            </article>
+            <article class="card">
+              <img class="thumb" src="placeholder.svg" alt="Prévia do projeto Yasuo Mobile First">
+              <h5>Yasuo Mobile First</h5>
+              <a href="https://zelo919.github.io/yasuo_mobilefirst/" target="_blank" rel="noopener">Ver projeto</a>
+            </article>
+            <article class="card">
+              <img class="thumb" src="placeholder.svg" alt="Prévia do projeto Pizzaria">
+              <h5>Pizzaria</h5>
+              <a href="https://zelo919.github.io/pizzaria/" target="_blank" rel="noopener">Ver projeto</a>
+            </article>
+            <article class="card">
+              <img class="thumb" src="placeholder.svg" alt="Prévia do projeto Receita">
+              <h5>Receita</h5>
+              <a href="https://zelo919.github.io/receita/" target="_blank" rel="noopener">Ver projeto</a>
+            </article>
+            <article class="card">
+              <img class="thumb" src="placeholder.svg" alt="Prévia do projeto Pikachu Mobile First">
+              <h5>Pikachu Mobile First</h5>
+              <a href="https://zelo919.github.io/pikachu-mobile-first/" target="_blank" rel="noopener">Ver projeto</a>
+            </article>
+          </div>
+        </div>
+
+        <div class="panel" id="praticas-de-design">
+          <h4>Práticas de Design</h4>
+          <div class="grid">
+            <article class="card">
+              <img class="thumb" src="placeholder.svg" alt="Prévia do Projeto 1 de Práticas de Design">
+              <h5>Projeto 1</h5>
+              <a href="https://www.figma.com/file/dGn2rFIaanx0ARUjGjEfwE?locale=pt-br&amp;type=design" target="_blank" rel="noopener">Ver no Figma</a>
+            </article>
+            <article class="card">
+              <img class="thumb" src="placeholder.svg" alt="Prévia do Projeto 2 de Práticas de Design">
+              <h5>Projeto 2</h5>
+              <a href="https://www.figma.com/file/MJMwfaawORmjVvNHvozQhU?locale=pt-br&amp;type=design" target="_blank" rel="noopener">Ver no Figma</a>
+            </article>
+          </div>
+        </div>
+
+        <div class="panel" id="matematica-discreta">
+          <h4>Matemática Discreta</h4>
+          <div class="grid">
+            <article class="card">
+              <div class="thumb"></div>
+              <h5>Projeto</h5>
+              <p>Descrição.</p>
+              <a href="#">Ver projeto</a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">Rodapé</div>
+  </footer>
+
 </body>
 </html>
