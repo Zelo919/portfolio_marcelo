@@ -1,23 +1,12 @@
 :root {
-  --bg: #f4efe6;
-  --ink: #14213d;
-  --mut: #4d5670;
-  --card: #fffaf0;
-  --accent: #ff5a36;
+  --bg: #101522;
+  --ink: #f4efe6;
+  --mut: #aab1c4;
+  --card: #182036;
+  --accent: #ff7a59;
   --green: #2fa968;
   --pad: clamp(20px, 4vw, 72px);
-  color-scheme: light;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #101522;
-    --ink: #f4efe6;
-    --mut: #aab1c4;
-    --card: #182036;
-    --accent: #ff7a59;
-    color-scheme: dark;
-  }
+  color-scheme: dark;
 }
 
 * { 
@@ -108,7 +97,10 @@ h1 {
   line-height: .92;
   letter-spacing: -.02em;
   text-transform: uppercase;
+  color: #fff;
 }
+
+h1 .o { display: block; }
 
 .photo {
   width: min(62vw, 260px);
@@ -183,7 +175,6 @@ h1 {
   margin-bottom: 28px;
 }
 
-
 .grid {
   display: grid;
   gap: 28px;
@@ -221,6 +212,16 @@ h1 {
   text-underline-offset: 4px;
 }
 
+.textbox {
+  max-width: 720px;
+  border: 2px solid var(--ink);
+  border-radius: 14px;
+  padding: 22px;
+  background: var(--card);
+  box-shadow: 6px 6px 0 var(--accent);
+}
+
+.textbox p { color: var(--mut); }
 
 footer {
   border-top: 2px solid var(--ink);
@@ -229,6 +230,7 @@ footer {
   font-size: .9rem;
 }
 
+footer a { text-decoration: underline; text-underline-offset: 3px; }
 
 @media (min-width: 700px) {
   nav.top { display: flex; }
@@ -236,7 +238,7 @@ footer {
 }
 
 @media (min-width: 900px) {
- 
+
   h1 { font-size: 8.4vw; white-space: nowrap; }
   h1 .o { display: inline; }
 
