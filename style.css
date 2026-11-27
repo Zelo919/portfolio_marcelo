@@ -91,25 +91,25 @@ nav.top a:hover { color: var(--accent); }
 }
 
 h1 {
-  grid-column: 1 / -1;
-  font-weight: 700;
-  font-size: 17vw;
-  line-height: .92;
-  letter-spacing: -.02em;
-  text-transform: uppercase;
-  color: #fff;
+    grid-column: 1 / -1;
+    font-weight: 700;
+    font-size: 17vw;
+    line-height: .92;
+    letter-spacing: -.02em;
+    text-transform: uppercase;
+    color: #fff;
 }
 
-h1 .o { display: block; }
-
 .photo {
-  width: min(62vw, 260px);
-  aspect-ratio: 1;
-  border-radius: 50%;
-  border: 3px solid var(--ink);
-  box-shadow: 8px 8px 0 var(--accent);
-  background: linear-gradient(135deg, #d9d2c3, #a9a291);
-  justify-self: center;
+    width: min(62vw, 260px);
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 3px solid var(--ink);
+    box-shadow: 8px 8px 0 var(--accent);
+    background: linear-gradient(135deg, #d9d2c3, #a9a291);
+    justify-self: center;
+    object-fit: cover;
+    display: block;
 }
 
 .intro { max-width: 320px; }
